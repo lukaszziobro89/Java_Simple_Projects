@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class SubtitlesChange {
     public static void main(String[] args) throws Exception {
         System.setProperty("file.encoding", "UTF-8");
-        File folder = new File("put directory here");
+        String path = System.getProperty("user.dir");
+        File folder = new File(path);
         for (File sourceFile : folder.listFiles()) {
             if (sourceFile.getName().endsWith(".txt") || sourceFile.getName().endsWith(".srt")){
                 System.out.println("Starting to change file: " + sourceFile.getName());

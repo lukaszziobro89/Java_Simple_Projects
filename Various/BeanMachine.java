@@ -1,4 +1,4 @@
-/*(Game: bean machine) The bean machine, also known as a quincunx or the Galton box, is a device for statistics experiments
+/**(Game: bean machine) The bean machine, also known as a quincunx or the Galton box, is a device for statistics experiments
 named after English scientist Sir Francis Galton. It consists of an upright board with evenly spaced nails (or pegs)
 in a triangular form.Balls are dropped from the opening of the board. Every time a ball hits a nail, it
 has a 50% chance of falling to the left or to the right. The piles of balls are accumulated in the slots at the bottom
